@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="Sms.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Management System</h2>
+        <form id="studentForm">
+            <input type="text" id="studentName" placeholder="Enter Student Name" required>
+            <input type="number" id="studentAge" placeholder="Enter Age" required>
+            <input type="text" id="studentCourse" placeholder="Enter Course" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <h3>Student List</h3>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="Sms.js"></script>
+</body>
+</html>
